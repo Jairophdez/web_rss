@@ -1,0 +1,14 @@
+<opml version="1.0">
+    <head>
+        <title>Noticias de la Champions League - Feeds</title>
+    </head>
+    <body>
+        <outline text="Noticias de la Champions League" type="rss" 
+            xmlUrl="" 
+            htmlUrl="" />
+            
+        <outline text="Podcast de Noticias de la Champions League" type="rss" 
+            xmlUrl="" 
+            htmlUrl="" />
+    </body>
+</opml>

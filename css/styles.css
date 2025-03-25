@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001f3f;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-image: url('../images/champions league.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.contenedor::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.contenedor h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+nav {
+    background: #002766;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+
+footer {
+    width: 100%;
+    background: #001f3f;
+    text-align: center;
+    padding: 15px;
+    color: #c5c5c5;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #002766;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #0033cc;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contenedor {
+        height: 40vh;
+    }
+
+    .contenedor h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contenedor {
+        height: 30vh;
+    }
+
+    .contenedor h1 {
+        font-size: 1.8em;
+    }
+
+    header {
+        font-size: 1.5em;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+
+    footer {
+        font-size: 0.8em;
+        padding: 10px;
+    }
+}

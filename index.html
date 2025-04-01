@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UEFA CHAMPIONS LEAGUE</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        a { color: white; }
+    </style>
 </head>
 <body>
-    <div class="contenedor">
+    <header>
         <h1>UEFA CHAMPIONS LEAGUE</h1>
-    </div>    
-
+        <button id="menu-toggle">☰</button>
+    </header>
+    
     <nav>
-        <ul>
+        <ul id="menu">
             <li><a href="blog/index.html">Blog</a></li>
             <li><a href="podcast/index.html">Podcast</a></li>
             <li><a href="blog/posts/post1.html">Clasificación</a></li>
@@ -27,13 +31,32 @@
         <p>Aquí encontrarás noticias, estadísticas, clasificaciones y más sobre la competición más importante de Europa.</p>
     </main>
 
-    <main>
-        <p>Nuevo formato, más partidos y más fútbol.</p>
-    </main>
+    <section id="blog-list">
+        <h2>Últimos artículos</h2>
+        <ul>
+            <li><a href="blog/posts/post3.html">Resultados recientes</a></li>
+            <li><a href="blog/posts/post2.html">Estadísticas clave</a></li>
+            <li><a href="blog/posts/post1.html">Clasificación actualizada</a></li>
+        </ul>
+    </section>
 
     <footer>
-        <a href="feed/rss.xml">📢 Suscribirse al Blog (RSS)</a>
+        <p>&copy; 2025 UEFA Champions League</p>
+        <p>
+            <a href="feed/rss.xml">Suscribirse al blog (RSS)</a> | 
+            <a href="feed/podcast.xml">Suscribirse al podcast (RSS)</a> | 
+            <a href="feed/opml.xml">Descargar OPML</a>
+        </p>
+        <p>
+            <img src="images/validrss.png" alt="Valid RSS">
+            <img src="images/validopml.png" alt="Valid OPML">
+        </p>
     </footer>
 
+    <script>
+        document.getElementById("menu-toggle").addEventListener("click", function() {
+            document.getElementById("menu").classList.toggle("active");
+        });
+    </script>
 </body>
 </html>

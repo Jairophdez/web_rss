@@ -3,12 +3,12 @@
         <title>Noticias de la Champions League - Feeds</title>
     </head>
     <body>
-        <outline text="UEFA CHAMPIONS LEAGUE" type="rss"
-            xmlUrl=""
-            htmlUrl="https://github.com/Jairophdez/web_rss/index.html" />
+        <outline text="Noticias de la Champions League" type="rss" 
+            xmlUrl="https://raw.githubusercontent.com/Jairophdez/web_rss/refs/heads/main/feed/feeds.opml" 
+            htmlUrl="https://raw.githubusercontent.com/Jairophdez/web_rss/refs/heads/main/feed/feeds.opml" />
             
         <outline text="Podcast de Noticias de la Champions League" type="rss" 
-            xmlUrl=""
-            htmlUrl="https://github.com/Jairophdez/web_rss/podcast/index.html" />
+            xmlUrl="https://raw.githubusercontent.com/Jairophdez/web_rss/refs/heads/main/feed/feeds.opml" 
+            htmlUrl="https://raw.githubusercontent.com/Jairophdez/web_rss/refs/heads/main/feed/feeds.opml" />
     </body>
 </opml>

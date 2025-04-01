@@ -1,16 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-    <channel>
-        <title>Noticias de la Champions League</title>
-        <link></link>
-        <description>Últimas noticias sobre la Champions League</description>
-        <language>es</language>
+  <channel>
+    <title>Podcast de Noticias de la Champions League</title>
+    <link>https://github.com/Jairophdez/web_rss</link>
+    <description>Últimas noticias y actualizaciones</description>
+    
+    <item>
+      <title>Primera noticia</title>
+      <link>https://github.com/Jairophdez/web_rss</link>
+      <description>Descripción breve de la noticia</description>
+      <pubDate>Fri, 28 Feb 2025 12:00:00 GMT</pubDate>
+    </item>
 
-        <item>
-            <title>Sorpresa en la Champions League</title>
-            <link></link>
-            <description>Descubre qué equipos avanzaron a la final.</description>
-            <pubDate>Tue, 18 Mar 2025 12:00:00 GMT</pubDate>
-            <guid></guid>
-        </item>
-    </channel>
+    <item>
+      <title>Jornada 1: La mejor competición del mundo comienza hoy</title>
+      <link>https://github.com/Jairophdez/web_rss</link>
+      <description>Descripción breve de la segunda noticia</description>
+      <pubDate>Fri, 28 Feb 2025 14:00:00 GMT</pubDate>
+    </item>
+
+  </channel>
 </rss>

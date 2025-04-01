@@ -4,11 +4,11 @@
     </head>
     <body>
         <outline text="Noticias de la Champions League" type="rss" 
-            xmlUrl="https://raw.githubusercontent.com/Jairophdez/web_rss/refs/heads/main/feed/feeds.opml" 
-            htmlUrl="https://raw.githubusercontent.com/Jairophdez/web_rss/refs/heads/main/feed/feeds.opml" />
+            xmlUrl="https://jairophdez.github.io/web_rss/feed/rss.xml" 
+            htmlUrl="https://jairophdez.github.io/web_rss/" />
             
         <outline text="Podcast de Noticias de la Champions League" type="rss" 
-            xmlUrl="https://raw.githubusercontent.com/Jairophdez/web_rss/refs/heads/main/feed/feeds.opml" 
-            htmlUrl="https://raw.githubusercontent.com/Jairophdez/web_rss/refs/heads/main/feed/feeds.opml" />
+            xmlUrl="https://jairophdez.github.io/web_rss/feed/rss.xml" 
+            htmlUrl="https://jairophdez.github.io/web_rss/" />
     </body>
 </opml>

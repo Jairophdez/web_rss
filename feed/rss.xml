@@ -2,21 +2,24 @@
 <rss version="2.0">
   <channel>
     <title>Podcast de Noticias de la Champions League</title>
-    <link>https://github.com/Jairophdez/web_rss</link>
-    <description>Últimas noticias y actualizaciones</description>
-    
+    <link>https://jairophdez.github.io/web_rss/feed/rss.xml</link>
+    <description>Últimas noticias y actualizaciones sobre la Champions League</description>
+    <language>es</language>
+
     <item>
-      <title>Primera noticia</title>
-      <link>https://github.com/Jairophdez/web_rss</link>
-      <description>Descripción breve de la noticia</description>
-      <pubDate>Fri, 28 Feb 2025 12:00:00 GMT</pubDate>
+      <title>Primera noticia: El partido más esperado de la jornada</title>
+      <link>https://jairophdez.github.io/web_rss/noticias/primera-noticia.html</link>
+      <description>En este artículo, te contamos todo sobre el partido que ha capturado la atención de los fanáticos de la Champions League.</description>
+      <pubDate>Fri, 28 Feb 2025 12:00:00 +0000</pubDate>
+      <guid>https://jairophdez.github.io/web_rss/noticias/primera-noticia.html</guid>
     </item>
 
     <item>
       <title>Jornada 1: La mejor competición del mundo comienza hoy</title>
-      <link>https://github.com/Jairophdez/web_rss</link>
-      <description>Descripción breve de la segunda noticia</description>
-      <pubDate>Fri, 28 Feb 2025 14:00:00 GMT</pubDate>
+      <link>https://jairophdez.github.io/web_rss/noticias/jornada-1-comienza.html</link>
+      <description>La espera ha terminado. Descubre qué esperar de la primera jornada de la Champions League 2025.</description>
+      <pubDate>Fri, 28 Feb 2025 14:00:00 +0000</pubDate>
+      <guid>https://jairophdez.github.io/web_rss/noticias/jornada-1-comienza.html</guid>
     </item>
 
   </channel>

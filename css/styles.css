@@ -67,7 +67,7 @@ main {
 }
 
 img {
-    max-width: 100%;
+    max-width: auto;
     height: auto;
     width: 80%;
     border-radius: 10px;
@@ -121,9 +121,6 @@ th {
         margin: 10px 0;
     }
 
-    img {
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 480px) {

@@ -1,15 +1,16 @@
 <rss version="2.0">
     <channel>
         <title>Podcast de Noticias de la Champions League</title>
-        <link></link>
+        <link>https://raw.githubusercontent.com/Jairophdez/web_rss/refs/heads/main/feed/podcast.xml</link>
         <description>Podcast con las últimas novedades del mundo del fútbol</description>
         <language>es</language>
 
         <item>
             <title>Jornada 1: La mejor competición del mundo comienza hoy</title>
-            <link></link>
+            <link>https://raw.githubusercontent.com/Jairophdez/web_rss/refs/heads/main/feed/podcast.xml</link>
             <description>Analizamos los mejores partidos de la temporada y sus claves tácticas.</description>
-            <guid></guid>
+            <enclosure url="https://raw.githubusercontent.com/Jairophdez/web_rss/refs/heads/main/feed/podcast.xml" length="12345678" type="audio/mpeg"/>
+            <guid>https://tusitio.github.io/audio/episodio1.mp3</guid>
             <pubDate>Tue, 18 Mar 2025 12:00:00 GMT</pubDate>
         </item>
     </channel>
